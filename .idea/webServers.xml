@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cbd36189-e6c2-405f-9a47-ea95a1981887" name="hua_test">
+        <fileTransfer accessType="SFTP" host="connect.nmb1.seetacloud.com" port="56943" sshConfigId="1d7d751c-e082-48af-a77e-a161c842432a" sshConfig="root@connect.nmb1.seetacloud.com:56943 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="aed6ac0d-734a-49e6-9811-30f7d480e6ac" name="llm_125">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="connect.nmb1.seetacloud.com" port="56943" sshConfigId="1d7d751c-e082-48af-a77e-a161c842432a" sshConfig="root@connect.nmb1.seetacloud.com:56943 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
